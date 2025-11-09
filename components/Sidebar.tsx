@@ -27,7 +27,7 @@ export const Sidebar: React.FC = () => {
         <div className="hidden md:flex flex-col w-64 bg-gray-800 text-white">
             <div className="flex items-center justify-center h-20 border-b border-gray-700">
                 <ShieldIcon className="h-8 w-8 text-blue-400" />
-                <h1 className="text-xl font-bold ml-2">NetPortal</h1>
+                <h1 className="text-xl font-bold ml-2">Central Dashboard</h1>
             </div>
             <nav className="flex-1 px-4 py-6 space-y-2">
                 <NavLink icon={<BarChartIcon className="h-5 w-5" />} label="Dashboard" isActive={true} />
